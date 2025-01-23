@@ -1,8 +1,7 @@
-class SofaIsDamagedException (Exception):
-    def __init__(self, message:str="Sofa is damaged!"):
+class SofaIsDamagedException(Exception):
+    def __init__(self, message="Sofa is damaged!"):
         self.message = message
         super().__init__(message)
-        
+
     def __str__(self) -> str:
         return self.message
-    

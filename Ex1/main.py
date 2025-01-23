@@ -7,7 +7,7 @@ def main():
     person:Person = Person("Bob", 23)
     employee:Employee = Employee("John", 28, "Software Engineer")
     student:Student = Student("Anna", 19)
-    workingStudent:WorkingStudent = WorkingStudent(name="Adam", age=20, work_position="Sales Trainer")
+    working_student:WorkingStudent = WorkingStudent(name="Adam", age=20, work_position="Sales Trainer")
     
     person.say_hello()
     
@@ -17,7 +17,7 @@ def main():
     student.say_hello()
     student.introduce()
     
-    workingStudent()
+    working_student()
     
 if __name__ == '__main__':
     main()

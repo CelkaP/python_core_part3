@@ -2,7 +2,7 @@ from person import Person
 
 class Student(Person):
     
-    def __init__(self, name:str, age:int):
+    def __init__(self, name, age):
         super().__init__(name, age)
         self._position = "Student"
         
