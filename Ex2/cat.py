@@ -1,6 +1,6 @@
-from catIsHungryException import *
-from fishIsUnderAttackException import *
-from sofaIsDamagedException import *
+from cat_is_hungry_exception import CatIsHungryException
+from fish_is_under_attack_exception import FishIsUnderAttackException
+from sofa_is_damaged_exception import SofaIsDamagedException
 
 
 class Cat:

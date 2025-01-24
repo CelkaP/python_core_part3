@@ -1,8 +1,10 @@
 def multiply(x):
+    """Multiply number by itself"""
     return x + x
 
 
 def double(x):
+    """Multiply number by 2"""
     return x * 2
 
 

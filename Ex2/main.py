@@ -1,7 +1,7 @@
 from cat import Cat
-from sofaIsDamagedException import SofaIsDamagedException
-from catIsHungryException import CatIsHungryException
-from fishIsUnderAttackException import FishIsUnderAttackException
+from sofa_is_damaged_exception import SofaIsDamagedException
+from cat_is_hungry_exception import CatIsHungryException
+from fish_is_under_attack_exception import FishIsUnderAttackException
 
 
 def main():
